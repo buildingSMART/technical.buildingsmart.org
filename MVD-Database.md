@@ -46,7 +46,6 @@ All MVDs listed below are © buildingSMART International Ltd. Written requests s
 | IFC 2x3 | Architectural design to quantity take-off - level 2 | Draft | [link](https://technical.buildingsmart.org/wp-content/uploads/2021/01/GSC-002%20Architectural%20design%20to%20quantity%20take-off%20-%20level%202.zip) | This is not a formal bSI MVD |
 | IFC 2x3 | Architectural design to quantity take-off - level 3 | Idea | [link](https://technical.buildingsmart.org/wp-content/uploads/2021/01/VBL-006%20Architectural%20design%20to%20quantity%20take-off%20-%20level%203.zip) | This is not a formal bSI MVD |
 
-The table MVD Database was last modified at 2021-12-09 12:12:35 by Jon Proctor.
 
 *Copyright  Notice*
 
