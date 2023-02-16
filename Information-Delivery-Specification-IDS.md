@@ -8,5 +8,6 @@ An Information Delivery Specification (IdS) is a computer interpretable document
 ![](https://technical.buildingsmart.org/wp-content/uploads/2020/07/ILS-1024x556.png)
 
 The project is a collaboration between 60+ people from all over the world. End users, standardization bodies and software vendors are part of the team.
+A more extensive overview of the IDS can be found in [this blogpost from february 2023](https://www.buildingsmart.org/what-is-information-delivery-specification-ids/).
 
 Technical info is available on [https://github.com/buildingSMART/IDS](https://github.com/buildingSMART/IDS)
