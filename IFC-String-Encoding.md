@@ -9,7 +9,7 @@ The IFC exchange format “STEP physical file” uses characters represented by 
 
 | Characters | Description |
 | --- | --- |
-| ‘SD’ | character code of D = x44 (decimal 68) added to x80 (128) is  x44 + x80 (68+128) = xC4 (196); since Ä is defined in ISO 8859-1 it is the default code page and no P encoding is required. |
-| ‘PA\\SD’ | same as above, but the PA directive at the begin of the string explicitly defines that the value of xC4 (196) is taken from ISO 8859-1 |
-| ‘XC4’ | character code xC4 as 8-bit character code found in ISO 10646 (first 255 characters – also referred to as “row 0”) |
-| ‘X20C4X0’ | character code xC4 as 16-bit character x00C4 in ISO 10646 (Unicode) |
+| ‘\\S\\D’ | character code of D = x44 (decimal 68) added to x80 (128) is  x44 + x80 (68+128) = xC4 (196); since Ä is defined in ISO 8859-1 it is the default code page and no P encoding is required. |
+| ‘\\PA\\\\S\\D’ | same as above, but the PA directive at the begin of the string explicitly defines that the value of xC4 (196) is taken from ISO 8859-1 |
+| ‘\\X\\C4’ | character code xC4 as 8-bit character code found in ISO 10646 (first 255 characters – also referred to as “row 0”) |
+| ‘\\X2\\0C4\\X0\\’ | character code xC4 as 16-bit character x00C4 in ISO 10646 (Unicode) |
