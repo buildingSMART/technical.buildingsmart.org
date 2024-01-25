@@ -16,8 +16,5 @@ The resulting IFC-GUID is a fixed 22 character length string. Software implement
 
 Note: The compression of the GUID for IFC file based exchange had been introduced back in 1996 for version IFC1.0. At that time data files were still stored on floppy disks with 1,44 MB capacity where every byte counted. Today compression of a GUID would be considered unnecessary but due to backward compatibility issues it is still enforced.
 
-Examples of code to generate compliant GUIDs can be found here:
-
-- https://github.com/buildingSMART/IfcDoc/blob/master/IfcKit/utilities/BuildingSmart.Utilities.Conversion/GlobalIdConverter.cs
-- https://github.com/IfcOpenShell/IfcOpenShell/blob/master/src/ifcopenshell-python/ifcopenshell/guid.py#L56
+Examples of code to generate compliant GUIDs can be found here https://github.com/IfcOpenShell/IfcOpenShell/blob/master/src/ifcopenshell-python/ifcopenshell/guid.py#L56
  
