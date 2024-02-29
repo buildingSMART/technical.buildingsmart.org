@@ -8,10 +8,14 @@ Given an IFC file, the Validation Service provides a judgment of conformity for 
 
 ### What is being checked?
 The IFC file is valid when it conforms to:
-- **Syntax**. The STEP Physical File syntax
-- **Schema**. The IFC schema referenced in the file including formal propositions encoded in the EXPRESS where rule and function language
-- **Rules**. Other normative rules of the IFC specification (e.g. implementer agreements and informal propositions)
-- **bSDD**. Does your IFC file contain references to the bSDD? The Validation Service can check if IFC's data match the referenced classification from bSDD
+- **STEP Syntax**. The STEP Physical File syntax
+- **IFC Schema**. An up-to-date (not withdrawn and latest revision) IFC schema referenced in the file, including formal propositions and functions encoded in the EXPRESS schema language
+- **Normative IFC Rules**. Other normative rules of the IFC specification (e.g. implementer agreements and informal propositions)
+
+Additionally, the Validation Service performs non-normative checks including:
+
+- **Industry Practices**. Checking the IFC file against common practice and sensible defaults. None of these checks render the IFC file invalid. Therefore, any issues identified result in warnings rather than errors
+- **bSDD Compliance**. Checking whether references to classifications and properties from bSDD, found in an IFC file, comply with the source definitions in bSDD
 
 ### What is not being cheked?
 Outside of the constraints encoded in bSDD, the IFC Validation Service does not check project-specific, national-specific, organization-specific rules or constraints. Case-specific validation is where the mandate of the bSI Validation Service ends - and where other solutions like [IDS](https://technical.buildingsmart.org/projects/information-delivery-specification-ids/) can help.
