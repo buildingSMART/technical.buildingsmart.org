@@ -4,7 +4,11 @@ ifcOWL
 What is ifcOWL?
 ---------------
 
-ifcOWL provides a Web Ontology Language (OWL) representation of the Industry Foundation Classes (IFC) schema. IFC is the open standard for representing building and construction data (see BuildingSMART). The ifcOWL ontology has the same status as the EXPRESS and XSD schemas of IFC.
+ifcOWL provides a Web Ontology Language (OWL) representation of the Industry Foundation Classes (IFC) schema. ifcOWL was an acadamic experiment that concluded that IFC is difficult to represent in other formats than EXPRESS. The IfcOWL is full of exceptions and particularities that make it hard to use in practise.
+The creators of ifcOWL themselves recommend against using it in practise. 
+
+Semantic web enthousiast are advised to use the [bSDD](http://bsdd.buildingsmart.org/) that serves TTL for every URI and a GraphQL interface.
+
 
 ![](https://technical.buildingsmart.org/wp-content/uploads/2019/03/expressxsdowl-300x192-300x192.png)
 -----------------------------------------------------------------------------------------------------------------------------
@@ -41,5 +45,4 @@ The above procedure is implemented in a number of tools:
 These tools all result in the respective schema ontologies made available in the [IFC Schema Database](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/). For any further questions, please engage via the [buildingSMART International Forums](https://forums.buildingsmart.org/).
 
 More information about ifcOWL can also be found at:
-
 Pieter Pauwels and Walter Terkaj, EXPRESS to OWL for construction industry: towards a recommendable and usable ifcOWL ontology. Automation in Construction 63: 100-133 (2016). [http://dx.doi.org/10.1016/j.autcon.2015.12.003](http://dx.doi.org/10.1016/j.autcon.2015.12.003).
