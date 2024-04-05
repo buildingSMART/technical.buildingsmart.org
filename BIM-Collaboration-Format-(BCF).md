@@ -4,7 +4,7 @@ BIM Collaboration Format (BCF) - An Introduction
 What is BCF?
 ------------
 
-In general, the BIM Collaboration Format (BCF) allows different BIM applications to communicate model-based issues with each other by leveraging IFC models that have been previously shared among project collaborators. This can be done by utilizing a file exchange between software platforms or using a RESTful service that connects software platforms directly or to a dedicated 3rd-party BCF server acting as the hub for such communications.
+In general, the BIM Collaboration Format (BCF) allows different BIM applications to communicate model-based issues and other kinds of topics with each other by leveraging IFC models that have been previously shared among project collaborators. This can be done by utilizing a file exchange between software platforms or using a RESTful service that connects software platforms directly or to a dedicated 3rd-party BCF server acting as the hub for such communications.
 
 More specifically, BCF works by transferring XML formatted data, which is contextualized information about an issue or problem directly referencing a view, captured via PNG and IFC coordinates, and elements of a BIM, as referenced via their IFC GUIDs, from one application to another.
 
