@@ -4,7 +4,7 @@ Industry Foundation Classes (IFC) - An Introduction
 What is IFC?
 ------------
 
-In general, IFC, or "Industry Foundation Classes", is a standardized, digital description of the built environment, including buildings and civil infrastructure. It is an open, international standard ([ISO 16739-1:2018](https://www.iso.org/standard/70303.html)), meant to be vendor-neutral, or agnostic, and usable across a wide range of hardware devices, software platforms, and interfaces for many different use cases. The IFC schema specification is the primary technical deliverable of buildingSMART International to fulfill its goal to promote openBIM®.
+In general, IFC, or "Industry Foundation Classes", is a standardized, digital description of the built environment, including buildings and civil infrastructure. It is an open, international standard ([ISO 16739-1:2024](https://www.iso.org/standard/84123.html)), meant to be vendor-neutral, or agnostic, and usable across a wide range of hardware devices, software platforms, and interfaces for many different use cases. The IFC schema specification is the primary technical deliverable of buildingSMART International to fulfill its goal to promote openBIM®.
 
 More specifically, the IFC schema is a standardized data model that codifies, in a logical way...
 
