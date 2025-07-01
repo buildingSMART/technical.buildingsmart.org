@@ -5,7 +5,6 @@ What is ifcOWL?
 ---------------
 
 ifcOWL provides a Web Ontology Language (OWL) representation of the Industry Foundation Classes (IFC) schema. ifcOWL was an acadamic experiment that concluded that IFC is difficult to represent in other formats than EXPRESS. The IfcOWL is full of exceptions and particularities that make it hard to use in practise.
-The creators of ifcOWL themselves recommend against using it in practise. 
 
 Semantic web enthousiast are advised to use the [bSDD](http://bsdd.buildingsmart.org/) that serves TTL for every URI and a GraphQL interface.
 
