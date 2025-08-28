@@ -14,8 +14,6 @@ If you want to publish your IDM, please use the Use-Case Management tool at http
 | Local IDM ID | IDM Name | Owner | Internal IDM Status | Project Manager | Project Manager Contact |
 | --- | --- | --- | --- | --- | --- |
 | ATC-001 | [Structural Design to Structural Detailing (ATC-75)](http://www.blis-project.org/IAI-MVD/) | Applied Technology Council, Thomas Liebich | Draft | Thomas McLane | tmclane@atcouncil.org |
-| BAMie | [Building Automation Modeling information exchange](https://handbook.ashrae.org/Plus/SI/A40_pdf/Information_Exchanges_A40_supplement.pdf) | ASHRAE / NIBS | | | |
-| BIMSie | [BIM Service interface exchange](https://handbook.ashrae.org/Plus/SI/A40_pdf/Information_Exchanges_A40_supplement.pdf) | ASHRAE / NIBS | | Now part of the openCDE APIs initiative. | |
 | BPie | [Building Programming information exchange](https://handbook.ashrae.org/Plus/SI/A40_pdf/Information_Exchanges_A40_supplement.pdf) | ASHRAE / NIBS | | Bill East | bill.east@prairieskyconsulting.com |
 | BSA-001 | [Design to Quantity Takeoff](http://www.blis-project.org/IAI-MVD/) | - | Proposal | - | |
 | BSA-002 | [Design to Energy Performance Analysis](http://www.blis-project.org/IAI-MVD/) | - | Proposal | - | |
