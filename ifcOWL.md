@@ -10,10 +10,13 @@ Web Ontology Language (OWL) is a W3C standard for representing ontologies (forma
 | EXPRESS             | .exp                 | STEP              | .stp, .p21 (.ifc)  |
 | OWL                 | .owl, .ttl           | RDF               | .ttl               |
 
-The IFC Industry Foundation Classes (IFC) schema is primarily standardised as an EXPRESS schema for STEP (P21) representation of data, not necessarily a directed, labelled graph.
+The IFC Industry Foundation Classes (IFC) schema is standardised as an EXPRESS schema for STEP (P21) representation of data, a nondirected, labelled graph.
 
-The _IfcOWL_ provides the OWL representation of the IFC schema. The _IfcOWL_ was an academic experiment that concluded that EXPRESS-based IFC is difficult to represent in formats other than EXPRESS. The _IfcOWL_ is full of exceptions and particularities that make it hard to use in practice.
-
+The _IfcOWL_ provides the OWL representation of the IFC schema. The _IfcOWL_ started as an academic research by Pauwels and Terkaj (2016) [1]. The authors concluded that there are limitations in converting EXPRESS-based IFC to OWL, therefore **the IfcOWL proposal does not include** these parts of the IFC standard:
+- properties and property sets
+- RULE and FUNCTION declarations, because procedural algorithms cannot be converted into OWL2DL class expressions [1]
+- WHERE-rule declarations
+- some of the INVERSE attributes from EXPRESS
 
 What is IfcOWL good for?
 --------------------
@@ -42,7 +45,7 @@ The IfcOWL ontologies are generated directly from the IFC EXPRESS schemas. The r
 The above procedure is implemented in a number of tools:
 
 [UGent – Aalto IFC-to-RDF converter](https://github.com/pipauwel/IFCtoRDF)  
-[Walter Terkaj EXPRESS-to-OWL converter](http://www.terkaj.com/tools/ExpressToOwl/ExpressToOwl.zip)
+[Walter Terkaj EXPRESS-to-OWL converter](https://terkaj.com/tools.html#ExpressToOwl)
 
 These tools all result in the respective schema ontologies made available in the [IFC Schema Database](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/). For any further questions, please engage via the [buildingSMART International Forums](https://forums.buildingsmart.org/).
 
@@ -54,7 +57,7 @@ The IfcOWL representation of the IFC schema is officially published by buildingS
 bSDD supports the RDF/TTL 
 ----------------------
 
-For those looking for RDF/TTL representation of IFC schema content, we recommend checking the [buildingSMART Data Dictionary (bSDD)](http://bsdd.buildingsmart.org/). The bSDD now serves content also in a TTL format, every definition has a URI, and data can be parsed both with the [REST API](https://app.swaggerhub.com/apis-docs/buildingSMART/Dictionaries/v1) and the [GraphQL interface](https://github.com/buildingSMART/bSDD/blob/master/Documentation/bSDD%20and%20GraphQL.md).
+For those looking for RDF/TTL representation of IFC schema content, we recommend checking the [buildingSMART Data Dictionary (bSDD)](http://bsdd.buildingsmart.org/). The bSDD now serves content also in a TTL format, every definition has an URI, and data can be parsed both with the [REST API](https://app.swaggerhub.com/apis-docs/buildingSMART/Dictionaries/v1) and the [GraphQL interface](https://github.com/buildingSMART/bSDD/blob/master/Documentation/bSDD%20and%20GraphQL.md).
 
 Make sure to use the correct MIME type "text/turtle", for example:
 ```
@@ -63,10 +66,13 @@ curl -X 'GET' \
   -H 'accept: text/turtle'
 ```
 
+----------------------------------------------------------------------------------------
+
+[1] 2016, Pieter Pauwels, Walter Terkaj, "EXPRESS to OWLfor construction industry: towards a recommendable and usable ifcOWL ontology"
 
 ----------------------------------------------------------------------------------------
 Authored by: Leon van Berlo on 29th Jul 2022
 
-Last modified: Artur Tomczak, 9th Dec 2025
+Last modified: Artur Tomczak, 8th Jan 2026
 
 (full version history on [GitHub](https://github.com/buildingSMART/technical.buildingsmart.org/blob/main/ifcOWL.md))
