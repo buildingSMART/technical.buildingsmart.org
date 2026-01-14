@@ -12,11 +12,11 @@ Web Ontology Language (OWL) is a W3C standard for representing ontologies (forma
 
 The IFC Industry Foundation Classes (IFC) schema is standardised as an EXPRESS schema for STEP (P21) representation of data, a nondirected, labelled graph.
 
-The _IfcOWL_ provides the OWL representation of the IFC schema. The _IfcOWL_ started as an academic research by Pauwels and Terkaj (2016) [1]. The authors concluded that there are limitations in converting EXPRESS-based IFC to OWL, therefore **the IfcOWL proposal does not include** these parts of the IFC standard:
-- properties and property sets
+The _IfcOWL_ provides the OWL representation of the IFC schema. The _IfcOWL_ started as an academic research by Pauwels and Terkaj (2016) [1]. The authors concluded that there are limitations in converting EXPRESS-based IFC to OWL. For this and other reasons, **the IfcOWL proposal does not include** these parts of the IFC standard:
 - RULE and FUNCTION declarations, because procedural algorithms cannot be converted into OWL2DL class expressions [1]
 - WHERE-rule declarations
 - some of the INVERSE attributes from EXPRESS
+- properties and property sets (those could be technically added in the future)
 
 What is IfcOWL good for?
 --------------------
