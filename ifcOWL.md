@@ -61,9 +61,7 @@ For those looking for RDF/TTL representation of IFC schema content, we recommend
 
 Make sure to use the correct MIME type "text/turtle", for example:
 ```
-curl -X 'GET' \
-  'https://api.bsdd.buildingsmart.org/api/Class/v1?Uri=https%3A%2F%2Fidentifier.buildingsmart.org%2Furi%2Fbuildingsmart%2Fifc%2F4.3%2Fclass%2FIfcWall' \
-  -H 'accept: text/turtle'
+curl.exe -G --data-urlencode "Uri=https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcWall" -H "accept: text/turtle" https://api.bsdd.buildingsmart.org/api/Class/v1
 ```
 
 ----------------------------------------------------------------------------------------
