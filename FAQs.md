@@ -1,6 +1,8 @@
 Frequently Asked Questions
 ==========================
 
+What is openBIM?
+
 Which version of IFC should I be using?
 
 What's the difference between IFC versions?
